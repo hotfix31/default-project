@@ -1,13 +1,26 @@
 # PhpStorm project files
-/.idea/
+/.idea
+
+# Assets
+/node_modules
+npm-debug.log
+yarn-error.log
 
 # Composer vendor dir
 /vendor/
 
-# PHP CS Fixer files
+###> friendsofphp/php-cs-fixer ###
 /.php_cs
 /.php_cs.cache
+###< friendsofphp/php-cs-fixer ###
 
-# PHPUnit files
-/.phpunit.xml
-/.phpunit.result.cache
+###> symfony/phpunit-bridge ###
+.phpunit
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> squizlabs/php_codesniffer ###
+/.phpcs-cache
+/phpcs.xml
+###< squizlabs/php_codesniffer ###
